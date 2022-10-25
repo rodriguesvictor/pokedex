@@ -1,7 +1,7 @@
 const pokeAPI = {};
 
-function converPokeApiDetailToPokemon(pokeDetail ) {
-    const pokemon = new Pokemon ();
+function converPokeApiDetailToPokemon(pokeDetail) {
+    const pokemon = new Pokemon();
     pokemon.number = pokeDetail.order;
     pokemon.name = pokeDetail.name;
 
